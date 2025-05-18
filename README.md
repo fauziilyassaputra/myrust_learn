@@ -5,8 +5,8 @@ start first project with rust :
 -  install rust.
 -  create cargo from your terminal like this "cargo new hello_world".
 -  open your vscode like this :
-  -cd hello_world
-  -code .
+  - cd hello_world
+  - code .
 -  enjoy with your first expression with rust language.
 
 # link to reference :
