@@ -1,7 +1,7 @@
 # myrust_learn
 my simple rust code for beginner
 
-start first project with rust 
+start first project with rust :
 - 1. install rust.
 - 2. create cargo from your terminal like this "cargo new hello_world".
 - 3. open your vscode like this 
