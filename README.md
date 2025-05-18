@@ -2,12 +2,12 @@
 my simple rust code for beginner
 
 start first project with rust :
-- 1. install rust.
-- 2. create cargo from your terminal like this "cargo new hello_world".
-- 3. open your vscode like this 
- cd hello_world
- code .
-- 4. enjoy with your first expression with rust language.
+-  install rust.
+-  create cargo from your terminal like this "cargo new hello_world".
+-  open your vscode like this :
+  -cd hello_world
+  -code .
+-  enjoy with your first expression with rust language.
 
 # link to reference :
 - install rust :
