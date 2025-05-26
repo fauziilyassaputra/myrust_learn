@@ -28,7 +28,7 @@ fn ownership_rules(){
 /*
 - setiap value harus dimiliki oleh satu owner pada satu waktu
 - setiap kita berinteraksi dengan data, maka data akan dimiliki hanya satu owner
-- semua data yang bersifat fixed size (yang disimpan di stack), keika kita tambahkan ke variable baru (owner baru), maka hasilnya adalha data akan di copy, sehingga variable baru (owner baru) akan memiliki data
+- semua data yang bersifat fixed size (yang disimpan di stack), keika kita tambahkan ke variable baru (owner baru), maka hasilnya adalah data akan di copy, sehingga variable baru (owner baru) akan memiliki data
 hasil copy dari variable lama (owner lama)
 */
 
