@@ -2,13 +2,15 @@ fn main() {
     println!("Hello, world!");
 }
 
-
+// #[derive(Debug)]  // deriving an implemetation
 struct Category{
     id: String,
     name: String
 }
 
 use std::fmt::{Debug, Formatter};
+
+// manual implementing
 
 impl Debug for Category {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
