@@ -37,7 +37,7 @@ fn test(){
 
 /*
 - kemampuan manambah data di depan(head) dan dibelakang (end)
-- vecDeque cocok digunakan untuk implementasi Queue (Antrian), fiorst in first out
+- vecDeque cocok digunakan untuk implementasi Queue (Antrian), first in first out
 */
 
 use std::collections::VecDeque;
