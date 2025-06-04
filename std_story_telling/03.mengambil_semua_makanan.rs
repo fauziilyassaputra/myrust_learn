@@ -14,22 +14,23 @@ fn main() {
 
 #[test]
 fn test(){
-    let mut kotak_makanan: [i32; 6] = [0; 6];
-    kotak_makanan[0] = 1;
-    kotak_makanan[1] = 2;
-    kotak_makanan[2] = 3;
+    let mut kotak_makanan: [&str; 6] = ["_"; 6];
+    kotak_makanan[0] = "pisang";
+    kotak_makanan[1] = "apel";
+    kotak_makanan[2] = "durian";
+
 
     for makanan in kotak_makanan{
         println!("{makanan}")
     }
     /*
     output :
-    1
-    2
-    3
-    0
-    0
-    0
+        pisang
+        apel
+        durian
+        _
+        _
+        _
     */
 }
 
