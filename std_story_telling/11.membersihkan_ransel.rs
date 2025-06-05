@@ -4,10 +4,10 @@ fn main() {
 
 /* 
  cerita :
-       malam pun tiba,kami pun menghabiskan ikan yang telah kami tangkap sebelumnya. setelah makan ikan, kami juga makan apel
+       malam pun tiba,kami pun menghabiskan ikan yang telah kami dapat sebelumnya. setelah makan ikan, kami juga makan apel
      yang tersedia di ransel. lalu meletakkan ransel tersebut dengan keadaan terbuka.
      saking asiknya dengan makan malam, tanpa sadar ransel kita dikerumuni monyet yang ingin pisang kami. kamipun ingin 
-     berusaha merebut hingga menyebabkan buah pisangnya hancur mengotori ranselnya
+     berusaha merebut hingga menyebabkan buah pisangnya hancur mengotori ranselnya, daging rusa didalamnya ikutan hancur
 
 masalah :
       1.bersihkan ransel dengan cara mengkosongkan isinya
@@ -18,7 +18,7 @@ masalah :
 #[test]
 fn test2(){
     // isi ransel
-    let mut isi_ransel = vec!["pisang hancur", "pisang hancur"];
+    let mut isi_ransel = vec!["pisang hancur", "pisang hancur", "daging rusak"];
     println!("isi ransel: {:?}", isi_ransel);
     //  isi ransel: ["pisang hancur", "pisang hancur"]
 
