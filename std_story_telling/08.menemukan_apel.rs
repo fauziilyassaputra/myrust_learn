@@ -20,7 +20,7 @@ fn test2(){
     
     // cek isi ransel setelah durian busuk kita buang
     println!("{:?}", isi_ransel);
-    // output : ["pisang", "apel", "apel", "daging rusa", "pisang", "pisang"]
+    // output : ["daging rusa", "apel", "apel", "pisang", "pisang", "pisang"]
     
 }
 
