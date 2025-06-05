@@ -22,19 +22,31 @@ fn test2(){
     // isi ransel
     let mut isi_ransel = vec!["daging rusa","apel","pisang","pisang","pisang"];
     println!("isi ransel: {:?}", isi_ransel);
+    // isi ransel: ["daging rusa", "apel", "pisang", "pisang", "pisang"]
 
     // mengambil pisang
     isi_ransel.pop();
     println!("isi ransel setelah mengambil pisang: {:?}", isi_ransel);
+    // isi ransel setelah mengambil pisang: ["daging rusa", "apel", "pisang", "pisang"]
     
     //memasukkan 3 ikan kedalam ransel
     let mut ikan_ikan = vec!["ikan","ikan","ikan"];
     isi_ransel.append(&mut ikan_ikan);
     println!("isi ransel setelah memasukkan ikan: {:?}", isi_ransel);
+    // isi ransel setelah memasukkan ikan: ["daging rusa", "apel", "pisang", "pisang", "ikan", "ikan", "ikan"]
     
     //mengambil tiga ikan
     let ambil_ikan: Vec<_> = isi_ransel.drain(4..).collect();
     println!("isi ransel setelah mengeluarkan ikan: {:?}", isi_ransel);
+    // isi ransel setelah mengeluarkan ikan: ["daging rusa", "apel", "pisang", "pisang"]
 
     
 }
+
+/*
+penjelasan :
+    1. pop() untuk menghapus elemen terakhir dari vec dan mengembalikannya sebagai Option<T>:
+    2.jika vec kosong, pop() akan mengembalikan none
+    3. push()  untuk menambahkan elemen ke akhir dari vec
+
+*/
