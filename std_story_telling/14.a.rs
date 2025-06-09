@@ -17,7 +17,7 @@ fn test(){
     isi_ransel.extend_from_slice(&[4,5,6]);
     println!("isi ransel setelah : {:?}", isi_ransel)
 }
-
+// output : [0,1,2,3,4,5,6]
 
 /* 
  
