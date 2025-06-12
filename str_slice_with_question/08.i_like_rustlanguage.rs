@@ -10,7 +10,7 @@ fn main() {
 
 
 #[test]
-fn hilangkan_whitespace() {
+fn memisahkan_kata() {
     // 
     let learn = "i like rust language";
 
