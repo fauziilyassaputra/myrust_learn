@@ -10,7 +10,7 @@ fn main() {
 
 
 #[test]
-fn hilangkan_whitespace() {
+fn cek_awal_akhir() {
 
     let learn = "rust is the best language";
     let best = "i like rust";
