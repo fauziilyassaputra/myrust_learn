@@ -15,11 +15,13 @@ fn ganti_teks() {
     let like = "i like php language, php is the best";
     let like_rust = like.replace("php", "rust");
     println!("{}", like_rust);
+    // output :   i like rust language, rust is the best
 
      // ubah hanya awal kata php menjadi rust
     let info = "php is a good choice, php is elephant language";
     let info_rust = info.replacen("php", "rust", 1);
     println!("{}", info_rust)
+    // output : rust is a good choice, php is elephant language
   
 }
 /*
