@@ -10,7 +10,7 @@ use std::collections::HashMap;
 // use std::collections::BTreeMap;
 
 #[test]
-fn test_linked_list() { 
+fn test_hashmap() { 
     // membuat hashmap 
     let  my_hashmap: HashMap<i32, &str>  = HashMap::from([
         (1,"hoshimi miyabi"),
