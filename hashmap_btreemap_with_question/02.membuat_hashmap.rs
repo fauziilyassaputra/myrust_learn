@@ -15,7 +15,7 @@ fn main() {
 use std::collections::HashMap;
 
 #[test]
-fn test_linked_list() { 
+fn test_hashmap() { 
     // membuat hashmap dengan new
     let mut my_hashmap: HashMap<&str, i32>  = HashMap::new(); 
     
