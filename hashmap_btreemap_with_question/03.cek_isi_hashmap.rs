@@ -11,7 +11,7 @@ use std::collections::HashMap;
 
 #[test]
 fn test_linked_list() { 
-    // membuat BTreeMap 
+    // membuat hashmap 
     let  my_hashmap: HashMap<i32, &str>  = HashMap::from([
         (1,"hoshimi miyabi"),
         (2,"asaba harumasa"),
