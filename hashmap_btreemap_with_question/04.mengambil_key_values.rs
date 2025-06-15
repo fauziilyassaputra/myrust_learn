@@ -3,14 +3,17 @@ fn main() {
 }
 
 /* 
- 
+ soal :
+ 1. ambil key dan value dari variable my_hahmap
+ 2. hitung panjang len
+ 3. ambil salah satu data dari varibale my_hashmap
  
  */
 use std::collections::HashMap;
 // use std::collections::BTreeMap;
 
 #[test]
-fn test_linked_list() { 
+fn test_hashmap() { 
     // membuat hash map 
     let  my_hashmap: HashMap<i32, &str>  = HashMap::from([
         (1,"hoshimi miyabi"),
@@ -29,7 +32,14 @@ fn test_linked_list() {
   key : 2, value: asaba harumasa
   key : 4, value: shokaku
   */
-   
+
+    // menghitung panjang hashmap
+    println!("{:?}",my_hashmap.len());
+    
+    // mengambil hashmap ketiga
+    let data_ketiga =  my_hashmap.get(&3);
+    println!("data ketiga adalah : {:?}", data_ketiga);
+
 }
 /*
 penjelasan :
