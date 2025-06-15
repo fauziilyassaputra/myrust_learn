@@ -3,7 +3,9 @@ fn main() {
 }
 
 /* 
- 
+ soal :
+ 1. coba ambil angka 4 pada variable vector
+ 2. panggil isi vector [1,4,7,10] !
  
  */
 
@@ -14,4 +16,11 @@ fn test_iterator() {
     println!("{:?}", iter);
     // output : Some(4)
 
+    let my_step_by: Vec<_> = vector.iter().step_by(3).collect();
+    println!("{:?}", my_step_by);
+    // output : [1, 4, 7, 10]
 }
+
+/* 
+- fungsi step_by() pada iterator berfungsi untuk melompati sejumlah elemen dalam setiap  iterasi
+*/
