@@ -15,6 +15,10 @@ fn test_iterator() {
     let sum = angka.iter().fold(0, |acc, &x| acc + x);
     println!("{:?}", sum);
      // output : 15
+
+    let sum2: i32= angka.iter().sum();
+    println!("{:?}", sum2);
+    // output : 15
 }
 /*
 penjelasan :
